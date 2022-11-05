@@ -1,0 +1,186 @@
+/* Directly targeted */
+
+
+body {
+  font-family: Montserrat,sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+
+h1, h2, h3, h4 ,h5 ,h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+/* Headings */
+
+.BIG-HEADING {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.secton-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Nav bar */
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-right: 650px;
+
+}
+
+.nav-item {
+  padding-left: 50px;
+  font-size: 1.5rem;
+}
+
+
+.reason {
+  font-size: 0.2rem;
+  font-size-adjust: none;
+}
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title secton */
+#title {
+  background-color: #ff4c60;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title-imaage */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 35%;
+  padding-bottom: 7%;
+}
+
+.image-class {
+  position: relative;
+}
+/* Fetures */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.Feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousal-item {
+    padding: 7% 15%;
+}
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 120px;
+}
+
+ .pricing-colum {
+   padding: 3% 2%;
+ }
+
+ .Price-text {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ /* CTA */
+
+ #cta {
+   background-color: #ff4c60;
+   color: #fff;
+   padding: 7% 15%;
+ }
+
+.CTA-heading {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
